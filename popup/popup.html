@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="popup.css" />
+    </head>
+    <body>
+        <div id="error-log" class="hidden">An error occurred!</div>
+        <div id="popup-content">
+            <form id="selectors">
+                <fieldset data-language="cxx">
+                    <legend>C++</legend>
+                    <label><input type="checkbox" class="enable"> Enable</label>
+                    <br />
+                    <select class="selection">
+                        <option value="cxx98">C++98</option>
+                        <option value="cxx03">C++03</option>
+                        <option value="cxx11">C++11</option>
+                        <!-- The current most recent GCC version uses C++14 as its default, so use that -->
+                        <option value="cxx14">C++14</option>
+                        <option value="cxx17">C++17</option>
+                        <option value="cxx20">C++20</option>
+                    </select>
+                </fieldset>
+                <fieldset data-language="c">
+                    <legend>C</legend>
+                    <label><input type="checkbox" class="enable"> Enable</label>
+                    <br />
+                    <select class="selection">
+                        <option value="c89">C89</option>
+                        <option value="c95">C95</option>
+                        <option value="c99">C99</option>
+                        <option value="c11">C11</option>
+                        <!-- The current most recent GCC version uses C17 as its default, so use that -->
+                        <option value="c17">C17</option>
+                    </select>
+                </fieldset>
+            </form>
+        </div>
+
+        <script src="popup.js"></script>
+    </body>
+</html>
