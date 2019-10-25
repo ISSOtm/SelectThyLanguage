@@ -18,7 +18,7 @@ const rules = [
     },
     {   // Try to hide links in the main page? Maybe hacky, needs testing
         match: elem => {
-            return elem.previousElementSibling && elem.previousElementSibling.tagName.toLowerCase() === "a";
+            return elem.previousElementSibling && ["a", "b"].indexOf(elem.previousElementSibling.tagName.toLowerCase()) !== -1;
         }, elem: elem => {
             return elem.previousElementSibling;
         }
