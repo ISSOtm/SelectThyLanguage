@@ -1,5 +1,8 @@
 
 "use strict";
+if(!browser) {
+    browser = chrome;
+}
 
 
 function sendMessage(topic, content) {

@@ -1,5 +1,8 @@
 
 "use strict";
+if(!browser) {
+    browser = chrome;
+}
 
 
 // The default settings are picked from the latest GCC's defaults, currently 9.2.0
