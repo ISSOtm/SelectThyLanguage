@@ -1,3 +1,11 @@
+body.select-thy-c.hide-thy-c-version-tags .t-since-c89,
+body.select-thy-c.hide-thy-c-version-tags .t-since-c95,
+body.select-thy-c.hide-thy-c-version-tags .t-since-c99,
+body.select-thy-c.hide-thy-c-version-tags .t-since-c11,
+body.select-thy-c.hide-thy-c-version-tags .t-since-c17
+{
+	display: none;
+}
 body.select-thy-c.hide-since-thy-c89 .is-since-thy-c89 { display: none; }
 body.select-thy-c.hide-since-thy-c95 .is-since-thy-c95 { display: none; }
 body.select-thy-c.hide-since-thy-c99 .is-since-thy-c99 { display: none; }
@@ -10,6 +18,15 @@ body.select-thy-c.hide-until-thy-c11 .is-until-thy-c11 { display: none; }
 body.select-thy-c.hide-until-thy-c17 .is-until-thy-c17 { display: none; }
 
 
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx98,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx03,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx11,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx14,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx17,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx20
+{
+	display: none;
+}
 body.select-thy-cxx.hide-since-thy-cxx98 .is-since-thy-cxx98 { display: none; }
 body.select-thy-cxx.hide-since-thy-cxx03 .is-since-thy-cxx03 { display: none; }
 body.select-thy-cxx.hide-since-thy-cxx11 .is-since-thy-cxx11 { display: none; }

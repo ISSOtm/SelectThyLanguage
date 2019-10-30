@@ -15,13 +15,15 @@ function sendMessage(topic, content) {
 
     for(const language in state) {
         const langElem = selectors.querySelector(`[data-language="${language}"]`);
-        langElem.querySelector(".enable").checked = state[language].enabled;
-        langElem.querySelector(".selection").value = state[language].setting;
+        langElem.querySelector(".enable").checked        = state[language].enabled;
+        langElem.querySelector(".selection").value       = state[language].setting;
+        langElem.querySelector(".show-versions").checked = state[language].show_versions;
 
         (function(language, langElem) {
             langElem.addEventListener("change", function() {
-                state[language].enabled = langElem.querySelector(".enable").checked;
-                state[language].setting = langElem.querySelector(".selection").value;
+                state[language].enabled       = langElem.querySelector(".enable").checked;
+                state[language].setting       = langElem.querySelector(".selection").value;
+                state[language].show_versions = langElem.querySelector(".show-versions").checked;
 
                 sendMessage("stateChange", state);
             });

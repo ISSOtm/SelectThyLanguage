@@ -56,6 +56,8 @@ function updateState(state) {
                 passedCurrentVer = true;
             }
         }
+
+        setClass(`hide-thy-${language}-version-tags`, !state[language].show_versions);
     }
 }
 
