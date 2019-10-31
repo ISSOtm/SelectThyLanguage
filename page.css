@@ -1,8 +1,8 @@
-body.select-thy-c.hide-thy-c-version-tags .t-since-c89,
-body.select-thy-c.hide-thy-c-version-tags .t-since-c95,
-body.select-thy-c.hide-thy-c-version-tags .t-since-c99,
-body.select-thy-c.hide-thy-c-version-tags .t-since-c11,
-body.select-thy-c.hide-thy-c-version-tags .t-since-c17
+body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-since-c89,
+body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-since-c95,
+body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-since-c99,
+body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-since-c11,
+body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-since-c17
 {
 	display: none;
 }
@@ -18,12 +18,12 @@ body.select-thy-c.hide-until-thy-c11 .is-until-thy-c11 { display: none; }
 body.select-thy-c.hide-until-thy-c17 .is-until-thy-c17 { display: none; }
 
 
-body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx98,
-body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx03,
-body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx11,
-body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx14,
-body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx17,
-body.select-thy-cxx.hide-thy-cxx-version-tags .t-since-cxx20
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-mark-rev.t-since-cxx98,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-mark-rev.t-since-cxx03,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-mark-rev.t-since-cxx11,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-mark-rev.t-since-cxx14,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-mark-rev.t-since-cxx17,
+body.select-thy-cxx.hide-thy-cxx-version-tags .t-mark-rev.t-since-cxx20
 {
 	display: none;
 }

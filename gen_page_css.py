@@ -6,7 +6,7 @@ languageValues = {
 }
 
 for language in languageValues.keys():
-    print(",\n".join([f"body.select-thy-{language}.hide-thy-{language}-version-tags .t-since-{value}" for value in languageValues[language]]))
+    print(",\n".join([f"body.select-thy-{language}.hide-thy-{language}-version-tags .t-mark-rev.t-since-{value}" for value in languageValues[language]]))
     print("{\n\tdisplay: none;\n}")
     lbrace = '{'
     rbrace = '}'
