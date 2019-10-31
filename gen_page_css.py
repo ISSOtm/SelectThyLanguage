@@ -13,3 +13,6 @@ for language in languageValues.keys():
     print("\n".join([f"body.select-thy-{language}.hide-since-thy-{value} .is-since-thy-{value} {lbrace} display: none; {rbrace}" for value in languageValues[language]]))
     print("\n".join([f"body.select-thy-{language}.hide-until-thy-{value} .is-until-thy-{value} {lbrace} display: none; {rbrace}" for value in languageValues[language]]))
     print("\n")
+
+    print(f"body.select-thy-{language} .t-rev-inl {lbrace} border: initial; {rbrace}")
+    print(f"body.select-thy-{language} .t-rev > td {lbrace} border: initial; {rbrace}")

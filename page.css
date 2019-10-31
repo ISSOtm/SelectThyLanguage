@@ -18,6 +18,8 @@ body.select-thy-c.hide-until-thy-c11 .is-until-thy-c11 { display: none; }
 body.select-thy-c.hide-until-thy-c17 .is-until-thy-c17 { display: none; }
 
 
+body.select-thy-c .t-rev-inl { border: initial; }
+body.select-thy-c .t-rev > td { border: initial; }
 body.select-thy-cxx.hide-thy-cxx-version-tags .t-mark-rev.t-since-cxx98,
 body.select-thy-cxx.hide-thy-cxx-version-tags .t-mark-rev.t-since-cxx03,
 body.select-thy-cxx.hide-thy-cxx-version-tags .t-mark-rev.t-since-cxx11,
@@ -41,3 +43,5 @@ body.select-thy-cxx.hide-until-thy-cxx17 .is-until-thy-cxx17 { display: none; }
 body.select-thy-cxx.hide-until-thy-cxx20 .is-until-thy-cxx20 { display: none; }
 
 
+body.select-thy-cxx .t-rev-inl { border: initial; }
+body.select-thy-cxx .t-rev > td { border: initial; }
