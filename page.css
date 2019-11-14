@@ -7,7 +7,9 @@ body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-until-c99,
 body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-since-c11,
 body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-until-c11,
 body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-since-c17,
-body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-until-c17
+body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-until-c17,
+body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-since-c2x,
+body.select-thy-c.hide-thy-c-version-tags .t-mark-rev.t-until-c2x
 {
 	display: none;
 }
@@ -21,6 +23,8 @@ body.select-thy-c.hide-since-thy-c11 .is-since-thy-c11 { display: none; }
 body.select-thy-c.hide-until-thy-c11 .is-until-thy-c11 { display: none; }
 body.select-thy-c.hide-since-thy-c17 .is-since-thy-c17 { display: none; }
 body.select-thy-c.hide-until-thy-c17 .is-until-thy-c17 { display: none; }
+body.select-thy-c.hide-since-thy-c2x .is-since-thy-c2x { display: none; }
+body.select-thy-c.hide-until-thy-c2x .is-until-thy-c2x { display: none; }
 
 
 body.select-thy-c .t-rev-inl { border: initial; }

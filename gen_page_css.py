@@ -3,7 +3,7 @@
 import itertools
 
 languageValues = {
-    "c":   [ "c89"  , "c95"  , "c99"  , "c11"  , "c17" ],
+    "c":   [ "c89"  , "c95"  , "c99"  , "c11"  , "c17", "c2x" ],
     "cxx": [ "cxx98", "cxx03", "cxx11", "cxx14", "cxx17", "cxx20" ]
 }
 
