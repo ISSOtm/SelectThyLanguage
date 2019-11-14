@@ -23,6 +23,13 @@ const rules = [
             return elem.parentElement.parentElement;
         }
     },
+    {   // Message boxes need to be hidden entirely to avoid leaving a black line
+        match: elem => {
+            return elem.parentElement.parentElement.classList.contains("fmbox");
+        }, elem: elem => {
+            return elem.parentElement.parentElement;
+        }
+    },
     {   // Try to hide links in the main page? Maybe hacky, needs testing
         match: elem => {
             return elem.previousElementSibling && ["a", "b"].indexOf(elem.previousElementSibling.tagName.toLowerCase()) !== -1;
