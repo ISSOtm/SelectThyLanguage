@@ -9,6 +9,13 @@ const languageValues = {
 
 
 const rules = [
+    {   // Match some "See also", for example at the bottom of https://en.cppreference.com/w/cpp/named_req/DefaultConstructible
+        match: elem => {
+            return elem.parentElement.parentElement.classList.contains("t-lines");
+        }, elem: elem => {
+            return elem.parentElement.parentElement.parentElement.parentElement;
+        }
+    },
     {   // Some "blocks" are implemented as tables; in that case, hide the row
         match: elem => {
             return elem.parentElement.tagName.toLowerCase() === "td";
